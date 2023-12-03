@@ -1,5 +1,6 @@
 import "./home.scss";
 import play from "../../assets/play.png";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <section className="main">
@@ -9,11 +10,13 @@ const Home = () => {
             O’qi, <br /> Registon bilan o‘zgartir!
           </h2>
           <div className="btns">
-            <a href="#">
-              <span>
-                <img src={play} alt="play" />
-              </span>
-            </a>
+            <Link to="/about">
+              <a href="#">
+                <span>
+                  <img src={play} alt="play" />
+                </span>
+              </a>
+            </Link>
             <h4>Bizning filial <br /> haqida bilib oling</h4>
           </div>
         </div>

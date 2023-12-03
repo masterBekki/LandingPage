@@ -7,7 +7,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <div className="container-header">
+    <div className="container-header container">
       <nav className="header">
         <div className="header__logo">
           <Link to="/">
