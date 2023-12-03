@@ -7,6 +7,7 @@ import News from './../../pages/news/news';
 import Score from './../../pages/score/score';
 import Contact from './../../pages/contact/contact';
 import Filial from './../../pages/filial/filial';
+import Register from './../../pages/register/register';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/score' element={<Score/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/filial' element={<Filial/>}></Route>
+          <Route path='/register' element={<Register/>}></Route>
         </Routes>
     </div>
   );

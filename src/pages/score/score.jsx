@@ -1,7 +1,7 @@
 import './score.css'
 const Score = () => {
   return (
-    <div>Score</div>
+    <div className='container'>Score</div>
   )
 }
 

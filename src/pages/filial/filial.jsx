@@ -1,7 +1,7 @@
 import './filial.css'
 const Filial = () => {
   return (
-    <div>Filial</div>
+    <div className='container'>Filial</div>
   )
 }
 

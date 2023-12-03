@@ -1,126 +1,37 @@
 import './contact.css'
+import phone from '../../assets/phone.png'
+import location from '../../assets/location.png'
+import table from '../../assets/table.png'
+import social from '../../assets/social.png'
+import { Link } from 'react-router-dom'
 const Contact = () => {
   return (
-    <>
-      <div className="container">
-        <div className="contact">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ea
-          eaque magni architecto quo dolor earum dolorum inventore doloremque,
-          animi vel accusantium voluptatum officiis officia. Iure enim sapiente
-          tenetur, voluptate reiciendis sint, dicta earum qui repellendus culpa,
-          hic ex molestias incidunt natus voluptates animi. Commodi odit natus
-          optio fuga quas provident, exercitationem laborum aliquid tempore
-          vitae, modi pariatur maxime ea deleniti praesentium quos dignissimos
-          ratione ullam minus vel dolorem. Adipisci architecto vero voluptas
-          maxime suscipit! Totam iste odio sint consequuntur fugit consectetur
-          tenetur molestiae asperiores nostrum dolorum. Tempora incidunt omnis
-          reprehenderit est fuga quasi dicta, consequuntur earum aliquid
-          perferendis natus!
+    <section className="contact container">
+      <h1 className="contact__title">Biz bilan bog‘lanish</h1>
+      <div className="row">
+        <div className="contact__item">
+          <img src={phone} width={40} height={50} alt="phone" />
+          <span className="subtitle">Telefon:</span>
+          <span className="phone">+998936042700</span>
         </div>
-        <br />
-        <div className="contact">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ea
-          eaque magni architecto quo dolor earum dolorum inventore doloremque,
-          animi vel accusantium voluptatum officiis officia. Iure enim sapiente
-          tenetur, voluptate reiciendis sint, dicta earum qui repellendus culpa,
-          hic ex molestias incidunt natus voluptates animi. Commodi odit natus
-          optio fuga quas provident, exercitationem laborum aliquid tempore
-          vitae, modi pariatur maxime ea deleniti praesentium quos dignissimos
-          ratione ullam minus vel dolorem. Adipisci architecto vero voluptas
-          maxime suscipit! Totam iste odio sint consequuntur fugit consectetur
-          tenetur molestiae asperiores nostrum dolorum. Tempora incidunt omnis
-          reprehenderit est fuga quasi dicta, consequuntur earum aliquid
-          perferendis natus!
+        <div className="contact__item">
+          <img src={location} width={40} height={50} alt="location" />
+          <span className="subtitle">Manzil:</span>
+          <span className="phone"> Namangan Shahar Alisher Navoiy kochasi 31-”A”uy
+          </span>
         </div>
-        <div className="contact">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ea
-          eaque magni architecto quo dolor earum dolorum inventore doloremque,
-          animi vel accusantium voluptatum officiis officia. Iure enim sapiente
-          tenetur, voluptate reiciendis sint, dicta earum qui repellendus culpa,
-          hic ex molestias incidunt natus voluptates animi. Commodi odit natus
-          optio fuga quas provident, exercitationem laborum aliquid tempore
-          vitae, modi pariatur maxime ea deleniti praesentium quos dignissimos
-          ratione ullam minus vel dolorem. Adipisci architecto vero voluptas
-          maxime suscipit! Totam iste odio sint consequuntur fugit consectetur
-          tenetur molestiae asperiores nostrum dolorum. Tempora incidunt omnis
-          reprehenderit est fuga quasi dicta, consequuntur earum aliquid
-          perferendis natus!
-        </div>
-        <br />
-        <div className="contact">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ea
-          eaque magni architecto quo dolor earum dolorum inventore doloremque,
-          animi vel accusantium voluptatum officiis officia. Iure enim sapiente
-          tenetur, voluptate reiciendis sint, dicta earum qui repellendus culpa,
-          hic ex molestias incidunt natus voluptates animi. Commodi odit natus
-          optio fuga quas provident, exercitationem laborum aliquid tempore
-          vitae, modi pariatur maxime ea deleniti praesentium quos dignissimos
-          ratione ullam minus vel dolorem. Adipisci architecto vero voluptas
-          maxime suscipit! Totam iste odio sint consequuntur fugit consectetur
-          tenetur molestiae asperiores nostrum dolorum. Tempora incidunt omnis
-          reprehenderit est fuga quasi dicta, consequuntur earum aliquid
-          perferendis natus!
-        </div>
-        <div className="contact">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ea
-          eaque magni architecto quo dolor earum dolorum inventore doloremque,
-          animi vel accusantium voluptatum officiis officia. Iure enim sapiente
-          tenetur, voluptate reiciendis sint, dicta earum qui repellendus culpa,
-          hic ex molestias incidunt natus voluptates animi. Commodi odit natus
-          optio fuga quas provident, exercitationem laborum aliquid tempore
-          vitae, modi pariatur maxime ea deleniti praesentium quos dignissimos
-          ratione ullam minus vel dolorem. Adipisci architecto vero voluptas
-          maxime suscipit! Totam iste odio sint consequuntur fugit consectetur
-          tenetur molestiae asperiores nostrum dolorum. Tempora incidunt omnis
-          reprehenderit est fuga quasi dicta, consequuntur earum aliquid
-          perferendis natus!
-        </div>
-        <br />
-        <div className="contact">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ea
-          eaque magni architecto quo dolor earum dolorum inventore doloremque,
-          animi vel accusantium voluptatum officiis officia. Iure enim sapiente
-          tenetur, voluptate reiciendis sint, dicta earum qui repellendus culpa,
-          hic ex molestias incidunt natus voluptates animi. Commodi odit natus
-          optio fuga quas provident, exercitationem laborum aliquid tempore
-          vitae, modi pariatur maxime ea deleniti praesentium quos dignissimos
-          ratione ullam minus vel dolorem. Adipisci architecto vero voluptas
-          maxime suscipit! Totam iste odio sint consequuntur fugit consectetur
-          tenetur molestiae asperiores nostrum dolorum. Tempora incidunt omnis
-          reprehenderit est fuga quasi dicta, consequuntur earum aliquid
-          perferendis natus!
-        </div>
-        <div className="contact">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ea
-          eaque magni architecto quo dolor earum dolorum inventore doloremque,
-          animi vel accusantium voluptatum officiis officia. Iure enim sapiente
-          tenetur, voluptate reiciendis sint, dicta earum qui repellendus culpa,
-          hic ex molestias incidunt natus voluptates animi. Commodi odit natus
-          optio fuga quas provident, exercitationem laborum aliquid tempore
-          vitae, modi pariatur maxime ea deleniti praesentium quos dignissimos
-          ratione ullam minus vel dolorem. Adipisci architecto vero voluptas
-          maxime suscipit! Totam iste odio sint consequuntur fugit consectetur
-          tenetur molestiae asperiores nostrum dolorum. Tempora incidunt omnis
-          reprehenderit est fuga quasi dicta, consequuntur earum aliquid
-          perferendis natus!
-        </div>
-        <br />
-        <div className="contact">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ea
-          eaque magni architecto quo dolor earum dolorum inventore doloremque,
-          animi vel accusantium voluptatum officiis officia. Iure enim sapiente
-          tenetur, voluptate reiciendis sint, dicta earum qui repellendus culpa,
-          hic ex molestias incidunt natus voluptates animi. Commodi odit natus
-          optio fuga quas provident, exercitationem laborum aliquid tempore
-          vitae, modi pariatur maxime ea deleniti praesentium quos dignissimos
-          ratione ullam minus vel dolorem. Adipisci architecto vero voluptas
-          maxime suscipit! Totam iste odio sint consequuntur fugit consectetur
-          tenetur molestiae asperiores nostrum dolorum. Tempora incidunt omnis
-          reprehenderit est fuga quasi dicta, consequuntur earum aliquid
-          perferendis natus!
+        <Link to="/register">
+          <div className="contact__item">
+            <img src={table} width={40} height={50} alt="phone" />
+            <span className="subtitle">Kursga yozilish:</span>
+          </div>
+          </Link>
+        <div className="contact__item">
+          <img src={social} width={40} height={50} alt="phone" />
+          <span className="subtitle">Bizning ijtimoiy tarmoqlarimiz</span>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 
